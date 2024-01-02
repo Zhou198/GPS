@@ -224,5 +224,5 @@ class GPSclassifier:
                     optRes["solab"], optRes["solr"], optRes["thre"] = ab, rho, threk
                     optRes["optC"], optRes["optSig"] = candC[i1], candSig[i2]
 
-        print(f"validation err is {cvErr}")
+        # print(f"validation err is {cvErr}")
         return optRes
